@@ -1,8 +1,7 @@
-Hello !!
+## Unix Lab
+7th May in Room No 1003
 
-Unix Lab on 7th May in 1003
-
-Contents : 
+#### Contents : 
 1. Basic functions of Operating System
 2. Study of Basic Unix commands
 3. Study of Vi editor and Unix File commands
