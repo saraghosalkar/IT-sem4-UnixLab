@@ -2,7 +2,8 @@
 echo -n "Enter a number : "
 read n
 i=1
-while [ $i -le 10 ]
+c=10
+while [ "$i" -le $c ]
 do
     echo " $n ^ $i = $(( n ** i ))"
     i=$(( i + 1 ))
