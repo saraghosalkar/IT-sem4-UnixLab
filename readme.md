@@ -52,7 +52,7 @@
 
 5. Basic Shell Script
     Input first name, middle name, last name through shell. 
-    Create Directory with middle name,
+    Create Directory with middle name
     Create file containing name, roll no and batch with first name
     copy content to file with last name
     check if there is any difference between 2 files 
