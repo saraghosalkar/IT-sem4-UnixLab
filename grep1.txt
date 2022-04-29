@@ -1,0 +1,4 @@
+ Use grep command to
+ Display all records of file with m marks / details of employees with salary x or y / details of
+ students with name x or y /p lines before/after line with word “Manager” / line number and line for
+ 

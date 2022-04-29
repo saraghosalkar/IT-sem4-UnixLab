@@ -1,0 +1,23 @@
+For a part of question:
+Create a employee / student etc file
+name.txt” having 10 records, with the following details
+ID, name, Salary/Marks , years of Experience/ Year, Designation (Manager, Director,
+Engineer)/Branch etc
+
+Use sed command to
+Display all records of file     (sed -n p name.txt)         
+/ line number n                 (sed -n np name.txt)                
+/ last record                   (sed -n '$p' name.txt)
+/ all records of file           (odd : sed -n 'p;n' name.txt)
+/ employees with                (even: sed -n 'n;p' name.txt)
+(even/odd) (number record/ID) 
+/ line number 4th to last       (sed -n '4,$p' name.txt)
+/ line number m to n            (sed -n '2,4p' name.txt)
+/ details of employees
+ex record Numbers 2,3,6,7and 8  ()
+/ top 7 lines                   (sed -n '1,7p' name.txt)
+/ all lines except the last     (sed -n '$!p' name.txt)
+Find occurrence of word “Manager”(sed -n '/IT/p' name.txt)
+/ the records for “Pooja”       (sed -n '/Pooja/p' name.txt)
+Substitute all the occurrences of “Manager” to “Leader” (sed 's/IT/InfoTech/' name.txt)
+Delete 2nd row from file / line number m to n / 
