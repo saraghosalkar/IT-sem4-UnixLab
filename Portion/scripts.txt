@@ -1,0 +1,24 @@
+b: Use Perl / Shell script for computations based on:
+compound / simple interest
+cost price, selling price, loss or profit
+area / perimeter / volume / surface are / etc of geometric figures
+y = x^3 + 3x^2 – 5x +8.
+Factors / Multiples of a number
+n terms of Fibonacci series
+Factorial of a number
+calculate Total and % for marks out of 50 for 6 subjects input by the user
+
+Use Perl / Shell script to display:
+Student details
+create an array with words “hello”, “Hi”, “Bye” and “Bye!”, Display the words in given (reverse or
+in) order.
+Create an array for days of a week / months of a year, display the day / month for a number entered
+multiplication table of a number
+power table of a number
+all files/ with filename .xyz / with filename beginning with b and ending with .c / directories in a current working directory
+even / odd positive numbers less than 100
+prime numbers less than 100
+
+ Use Perl / Shell script to implement:
+ basic calculator to add, subtract, multiply and divide.
+ basic logical processor for and, or and not.

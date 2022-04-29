@@ -1,0 +1,23 @@
+ a: For a part of question:
+  Create a employee / student etc file
+name.txt” having 10 records, with the following details
+ ID, name, Salary/Marks , years of Experience/ Year, Designation (Manager, Director,
+ Engineer)/Branch etc
+
+Use sed command to
+Display all records of file / line number n / last record / all records of file / employees with
+(even/odd) (number record/ID) / line number 4th to last / line number m to n / details of employees
+except record Numbers 2,3,6, 7and 8 / top 7 lines / all lines except the last
+Find occurrence of word “Manager” / the records for “Pooja” /
+Substitute all the occurrences of “Manager” to “Leader” /
+Delete 2nd row from file / line number m to n /
+
+Use grep command to
+Display all records of file with m marks / details of employees with salary x or y / details of
+students with name x or y /p lines before/after line with word “Manager” / line number and line for
+the records with “Pooja” / details of employees with salary NOT x /
+
+Use awk command to
+Display all records of file with m marks / employees name and salary / details of students with
+marks (greater/less) than x and (less/greater) y /results with the heading as “Student Records” using
+Begin details of employees till id no x / first p columns / even columns
