@@ -1,6 +1,9 @@
- Use awk command to
- Display all records of file with m marks / 
- employees name and salary / 
- details of students with marks (greater/less) than x and (less/greater) y /
- results with the heading as “Student Records” using
- Begin details of employees till id no x / first p columns / even columns
+Use awk command to
+Display all records of file with m marks /                         (awk '{print}' name.txt)
+employees name and salary /                                        (awk '{print $2, $3}' name.txt)
+details of students with marks (greater) than x and (less) y /     (awk '$3 > 50 || $3 < 35 {print $0}' name.txt)
+results with a heading using Begin                    (awk 'BEGIN {print "Student Records"}  {print $0}' name.txt)
+details of employees till id no x                       (awk 'NR < 8 {print $0}' name.txt)
+/ first p columns                              (awk '{ for (i = 2; i <= 4; ++i) printf $i" "; print ""}' name.txt)
+/ even columns                               (odd : awk '{ for (i=1;i<=NF;i+=2) printf $i" "; print ""}' name.txt)
+                                            (even : awk '{ for (i=2;i<=NF;i+=2) printf $i" "; print ""}' name.txt)
