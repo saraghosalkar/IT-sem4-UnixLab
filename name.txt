@@ -1,6 +1,6 @@
 ID  name    marks   year    branch
 1   Sara    98      2024    IT
-2   Aditya  97      2024    IT
+2   Aditya  99      2024    IT
 3   Kavya   99      2029    Comps
 4   Vaidehi 100     2025    Biomed 
 5   Rajiv   35      2020    IT

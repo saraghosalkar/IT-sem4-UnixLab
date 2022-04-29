@@ -1,4 +1,8 @@
  Use grep command to
- Display all records of file with m marks / details of employees with salary x or y / details of
- students with name x or y /p lines before/after line with word “Manager” / line number and line for
+ Display all records of file with m marks           (grep 99 name.txt)
+ / details of employees with salary x or y          (grep -e IT -e Comps name.txt)
+ / details of students with name x or y /           (grep -e Sara -e Aditya name.txt)
+ p lines before/after line with word “Manager” /    (grep -C 2 Biomed name.txt)
+ line number and line for the records with “Pooja”  (grep -n Pooja name.txt)
+ details of employees with salary NOT x /           (grep -v IT name.txt)
  

@@ -1,0 +1,6 @@
+ Use awk command to
+ Display all records of file with m marks / 
+ employees name and salary / 
+ details of students with marks (greater/less) than x and (less/greater) y /
+ results with the heading as “Student Records” using
+ Begin details of employees till id no x / first p columns / even columns
