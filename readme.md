@@ -69,6 +69,7 @@
 
 8. Study of Awk and Grep commands
     Create a student data file of atleast 10 records containing roll number, first name, surname, batch, division, year, email, first year cgpa, phone number. 
+       
         Execute using awk : 
         Print full name & email address of all students
         Display student details of students who have gmail
