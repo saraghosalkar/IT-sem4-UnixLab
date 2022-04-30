@@ -1,4 +1,5 @@
 #!/bin/bash
+#Power Table
 echo -n "Enter a number : "
 read n
 i=1
