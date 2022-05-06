@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Calculator "
+echo -n "Calculator"
